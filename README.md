@@ -3,7 +3,7 @@ This project develops a deep learning model to classify brain MRI images into fo
 
 The model was implemented using Python and PyTorch, trained on a publicly available MRI dataset consisting of 7023 images, split into 5712 training images and 1311 testing images. Performance metrics such as accuracy, precision, recall, F1-score, and a confusion matrix, were used the evaluate the model.
 
-The final model achieved 99% test accuracy, demonstrating the potential of convolutional neural networks for medical image classification. Despite the strong results, further evaluation using larger and more diverse datasets would be required before considering real-world clinical applications. 
+The final model achieved 98% test accuracy, demonstrating the potential of convolutional neural networks for medical image classification. Despite the strong results, further evaluation using larger and more diverse datasets would be required before considering real-world clinical applications. 
 
 ## Notebook
 
@@ -38,9 +38,9 @@ The dataset has been split into:
 | Metric | Score |
 |---|---:|
 | Accuracy | 99% |
-| Precision | 99% |
+| Precision | 98% |
 | Recall | 98% |
-| F1-score | 99% |
+| F1-score | 97% |
 
 ## Technologies Used
 
@@ -61,17 +61,17 @@ The CNN was trained over 20 epochs using the Adam optimiser and Cross Entropy Lo
 
 **Initial Epoch**
 
-- Training Loss: 208.0887
-- Training Accuracy: 77.56%
-- Validation Loss: 0.4309
-- Validation Accuracy: 81.62%
+- Training Loss: 250.1379
+- Training Accuracy: 74.37%
+- Validation Loss: 0.4336
+- Validation Accuracy: 82.30%
 
 **Final Epoch**
 
-- Training Loss: 2.3605
-- Training Accuracy: 99.88%
-- Validation Loss: 0.0727
-- Validation Accuracy: 98.02%
+- Training Loss: 2.8574
+- Training Accuracy: 99.77%
+- Validation Loss: 0.0793
+- Validation Accuracy: 98.09%
 
 Training loss decreased substantially throughout training, indicating that the model successfully learned increasingly discriminative image features.
 
