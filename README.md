@@ -77,17 +77,13 @@ Training loss decreased substantially throughout training, indicating that the m
 
 ## Results
 
-### Loss Curve
+### Loss and Accuracy Curves
 
-![Loss Curve](Images/losscurve.png)
-
-### Accuracy Curve
-
-![Accuracy Curve](Images/accuracycurve.png)
+![Curve](Images/loss_accuracy_curves.png)
 
 ### Confusion Matrix (Testing Data)
 
-![Confusion Matrix](Images/confusionmatrix.png)
+![Confusion Matrix](Images/confusion_matrix.png)
 
 ## Limitations
 
