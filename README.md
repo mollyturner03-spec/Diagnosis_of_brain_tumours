@@ -1,9 +1,9 @@
 # Brain Tumour Classification Using Convolutional Neural Networks
 This project develops a deep learning model to classify brain MRI images into four categories: Glioma, Meningioma, Pituitary Tumour, and No Tumour. The project explores the application of deep learning techniques to medical image classification, evaluating their effectiveness in distinguishing between different tumour types and healthy brain scans. 
 
-The model was implemented using Python and PyTorch, trained on a publicly available MRI dataset consisting of 7023 images, split into 5712 training images and 1311 testing images. Performance was evaluated using metrics such as accuracy, precision, recall, F1-score, and a confusion matrix.
+The model was implemented using Python and PyTorch, trained on a publicly available MRI dataset consisting of 7023 images, split into 5712 training images and 1311 testing images. Performance metrics such as accuracy, precision, recall, F1-score, and a confusion matrix, were used the evaluate the model.
 
-The final model achieved 99% test accuracy, demonstrating the potential of convolutional neural networks for automated medical image classification. Despite the strong results, further evaluation using larger and more diverse datasets would be required before considering real-world clinical applications. 
+The final model achieved 99% test accuracy, demonstrating the potential of convolutional neural networks for medical image classification. Despite the strong results, further evaluation using larger and more diverse datasets would be required before considering real-world clinical applications. 
 
 ## Notebook
 
@@ -17,7 +17,7 @@ The complete implementation can be found in the Jupyter Notebook:
 - Exploratory analysis of the training dataset
 - Construction of the CNN architecture
 - Model training and validation
-- Performance evaluation using classification metrics
+- Performance evaluation using metrics
 - Analysis of strengths, limitations, and potential improvements
 
 ## Dataset
@@ -29,7 +29,7 @@ The model was trained on a publicly available brain MRI dataset containing 7023 
 - Pituitary Tumour
 - No Tumour
 
-The dataset was split into:
+The dataset has been split into:
 - Training set: 5712 images
 - Testing set: 1311 images
 
@@ -43,6 +43,7 @@ The dataset was split into:
 | F1-score | 99% |
 
 ## Technologies Used
+
 - Python
 - PyTorch
 - NumPy
@@ -73,7 +74,6 @@ The CNN was trained over 20 epochs using the Adam optimiser and Cross Entropy Lo
 - Validation Accuracy: 98.02%
 
 Training loss decreased substantially throughout training, indicating that the model successfully learned increasingly discriminative image features.
-
 
 ## Results
 
